@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = DmarcParser::VERSION
   spec.authors       = ["Dmytro Salko"]
   spec.email         = ["dm.salko@gmail.com"]
-  spec.required_ruby_version = '>= 2.3'
+  spec.required_ruby_version = '>= 4.0'
 
   spec.summary       = %q{Reads and parses DMARC XML reports.}
 #  spec.description   = %q{TODO: Write a longer description or delete this line.}
@@ -37,7 +37,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 2.0"
+  spec.add_development_dependency "bundler", "~> 4.0"
   spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "rb-readline"
